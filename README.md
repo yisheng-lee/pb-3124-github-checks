@@ -15,8 +15,6 @@ build = Organization::Context.for(org) do
     build = pipeline.builds.find_by!(number: 14)
 end
 
-
-
 pp build.attributes.slice("id", "uuid", "number", "state", "blocked_state",
 "commit", "branch", "created_at", "started_at", "finished_at")
 build

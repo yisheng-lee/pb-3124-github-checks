@@ -3,10 +3,6 @@
 [//]: # Trying to workout a PR trigger()
 
 [//]: # Trying to workout another PR trigger()
-[//]: # Trying to workout another PR trigger()
-[//]: # Trying to workout another PR trigger()
-[//]: # Trying to workout another PR trigger()
-
 
 org = Organization.find_by!(slug: "yisheng-lee")
 
